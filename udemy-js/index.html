@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h3>Selecione o setor</h3>
+        <select name="secao" id="opcoes">
+            <option value="eletronico">Eletronico</option>
+            <option value="roupas">Roupas</option>
+            <option value="entretenimento">Entretenimento</option>
+        </select>
+
+        
+
+        <div id="container-2">
+            <div>
+                <label for="produto">Produto</label>
+                <input type="text" name="produto" id="produto" required>
+            </div>
+            
+            <div>
+                <label for="preco">Preço</label>
+                <input type="text" name="preco" id="preco" required>
+            </div>  
+    </div>
+    <button type="button" id="verifica">Selecionar</button>
+
+    <textarea name="retorno-preco" id="output"></textarea>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
